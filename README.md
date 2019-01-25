@@ -1,3 +1,5 @@
+This is a fork of react-native-push-notification with the Firebase dependency removed. It only works for local notifications.
+
 # React Native Push Notifications
 [![npm version](https://badge.fury.io/js/react-native-push-notification.svg?update=7)](http://badge.fury.io/js/react-native-push-notification)
 [![npm downloads](https://img.shields.io/npm/dm/react-native-push-notification.svg?update=7)](http://badge.fury.io/js/react-native-push-notification)
