@@ -28,7 +28,7 @@ import java.util.Random;
 
 import android.util.Log;
 
-import com.google.firebase.messaging.FirebaseMessaging;
+// import com.google.firebase.messaging.FirebaseMessaging;
 
 public class RNPushNotification extends ReactContextBaseJavaModule implements ActivityEventListener {
     public static final String LOG_TAG = "RNPushNotification";// all logging should use this tag
@@ -143,7 +143,7 @@ public class RNPushNotification extends ReactContextBaseJavaModule implements Ac
 
     @ReactMethod
     public void subscribeToTopic(String topic) {
-        FirebaseMessaging.getInstance().subscribeToTopic(topic);
+        // FirebaseMessaging.getInstance().subscribeToTopic(topic);
     }
 
     @ReactMethod
